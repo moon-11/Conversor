@@ -7,14 +7,19 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
   body {
     font-family: 'Arial', sans-serif;
     background: #121212;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
   }
 `;
 
